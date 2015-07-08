@@ -23,16 +23,16 @@ begin
     -- CPU作ろう
     cpu_inst : entity work.TG68
     port map (
-        clk => clk_50,
-        reset => reset_n,
-        data_in => (others => '0'),
+        clk      => clk_50,
+        reset    => reset_n,
+        data_in  => (others => '0'),
         data_out => open,
-        addr => cpu_addr,
-        as => cpu_as_n,
-        uds => open,
-        lds => open,
-        rw => open,
-        dtack => '0'
+        addr     => cpu_addr,
+        as       => cpu_as_n,
+        uds      => open,
+        lds      => open,
+        rw       => open,
+        dtack    => '0'
     );
 
     -- 起動時はCPUのresetラインを'0'にしないといけない

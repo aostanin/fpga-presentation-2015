@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE22F17C6
-set_global_assignment -name TOP_LEVEL_ENTITY example3
+set_global_assignment -name TOP_LEVEL_ENTITY example4
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:47:40  JULY 07, 2015"
 set_global_assignment -name LAST_QUARTUS_VERSION 15.0.1
@@ -71,6 +71,9 @@ set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VHDL_FILE ../hdl/example1.vhd
 set_global_assignment -name VHDL_FILE ../hdl/example2.vhd
 set_global_assignment -name VHDL_FILE ../hdl/example3.vhd
+set_global_assignment -name VHDL_FILE ../hdl/example4.vhd
+set_global_assignment -name VHDL_FILE ../hdl/bootrom.vhd
+set_global_assignment -name VHDL_FILE ../hdl/gpio.vhd
 set_global_assignment -name VHDL_FILE ../lib/TG68/VHDL/TG68_fast.vhd
 set_global_assignment -name VHDL_FILE ../lib/TG68/VHDL/TG68.vhd
 set_global_assignment -name CDF_FILE chain.cdf
