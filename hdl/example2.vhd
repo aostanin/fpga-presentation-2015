@@ -10,7 +10,6 @@ entity example2 is
   );
 end example2;
 
-
 architecture rtl of example2 is
 
     signal counter : std_logic_vector(31 downto 0);

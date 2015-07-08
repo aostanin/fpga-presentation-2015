@@ -8,7 +8,6 @@ entity example1 is
   );
 end example1;
 
-
 architecture rtl of example1 is
 begin
 

@@ -39,7 +39,7 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE EP4CE22F17C6
-set_global_assignment -name TOP_LEVEL_ENTITY example2
+set_global_assignment -name TOP_LEVEL_ENTITY example3
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 15.0.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "22:47:40  JULY 07, 2015"
 set_global_assignment -name LAST_QUARTUS_VERSION 15.0.1
@@ -68,6 +68,12 @@ set_location_assignment PIN_L3 -to leds[7]
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 
+set_global_assignment -name VHDL_FILE ../hdl/example1.vhd
+set_global_assignment -name VHDL_FILE ../hdl/example2.vhd
+set_global_assignment -name VHDL_FILE ../hdl/example3.vhd
+set_global_assignment -name VHDL_FILE ../lib/TG68/VHDL/TG68_fast.vhd
+set_global_assignment -name VHDL_FILE ../lib/TG68/VHDL/TG68.vhd
+set_global_assignment -name CDF_FILE chain.cdf
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
@@ -86,7 +92,4 @@ set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds[4]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds[5]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds[6]
 set_instance_assignment -name IO_STANDARD "3.3-V LVTTL" -to leds[7]
-set_global_assignment -name VHDL_FILE ../hdl/example1.vhd
-set_global_assignment -name VHDL_FILE ../hdl/example2.vhd
-set_global_assignment -name CDF_FILE chain.cdf
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

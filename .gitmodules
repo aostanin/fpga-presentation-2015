@@ -1,0 +1,3 @@
+[submodule "lib/TG68"]
+	path = lib/TG68
+	url = https://github.com/freecores/tg68.git
