@@ -130,7 +130,7 @@ HDL
 GitHub
 --------------------------------------------------------------------------------
 
-[https://github.com/aostanin/2015-fpga-presentation](https://github.com/aostanin/2015-fpga-presentation)
+[https://github.com/aostanin/fpga-presentation-2015](https://github.com/aostanin/fpga-presentation-2015)
 
 
 1 ボタンでLEDを光らそう
